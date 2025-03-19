@@ -1,5 +1,5 @@
 import './AboutMe.css';
-import personalPhoto from '../../assets/images/1676480760551.jpg';
+import personalPhoto from '../../assets/images/personal-photo.jpg';
 
 function AboutMe() {
     return (
