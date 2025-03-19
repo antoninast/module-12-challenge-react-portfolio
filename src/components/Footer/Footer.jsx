@@ -11,8 +11,8 @@ function Footer() {
 
     return(
         <footer>
-            <div onClick={() => onLinkedInClick()}><a>LinkedIn account</a></div>
-            <div onClick={() => onGitHubClick()}><a>GitHub account</a></div>
+            <div className='link' onClick={() => onLinkedInClick()}><a>LinkedIn account</a></div>
+            <div className='link' onClick={() => onGitHubClick()}><a>GitHub account</a></div>
         </footer>
     )
 }
