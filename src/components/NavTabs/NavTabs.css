@@ -1,0 +1,25 @@
+.nav-tabs {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 0 2em;
+    list-style-type: none;
+}
+
+a {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #79cda4;
+}
+
+.active {
+    color: #79cda4;
+}

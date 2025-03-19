@@ -1,0 +1,21 @@
+.resume {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button {
+    border: none;
+    background-color: #79cda4;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: #79cda4;
+}
