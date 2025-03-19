@@ -1,22 +1,17 @@
-import { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 
 import './App.css';
-import NavTabs from './components/NavTabs/NavTabs.jsx';
+import Header from './components/Header/Header.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 function App() {
   return (
     <>
-      <header>
-        <h2>Antonina Stancheva</h2>
-        <NavTabs />
-      </header>
+      <Header />
       <main>
         <Outlet />
       </main>
-      <footer>
-
-      </footer>
+      <Footer />
     </>
   )
 }

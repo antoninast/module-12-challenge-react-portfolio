@@ -1,0 +1,23 @@
+.project {
+    width: 47%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.project img {
+    width: 80%;
+    height: 90%;
+    margin-bottom: 0.5rem;
+    border-radius: 20px;
+}
+
+.project img:hover {
+    box-shadow: #ffffffa3 0px 1px 5px 5px;
+}
+
+.title {
+    font-weight: 500;
+}
