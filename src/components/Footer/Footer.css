@@ -6,6 +6,11 @@ footer {
     color: white;
     text-align: center;
     padding: 11px 0px;
+    display: flex;
+    justify-content: center;
+}
+div {
+    margin: 0 1rem;
 }
 
 a {

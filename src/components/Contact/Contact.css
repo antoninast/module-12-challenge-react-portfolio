@@ -54,7 +54,6 @@ button[type="submit"] {
     background-color: #79cda4;
     border: none;
     border-radius: 10px;
-    height: 2.5rem;
     width: 10rem;
     align-self: flex-end;
 }
